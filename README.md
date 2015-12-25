@@ -17,7 +17,7 @@ The run_analysis.R script in this repo combines the test and the training data f
 
 ... adds a column with labels which identifying which activity was recorded.
 
-As main output, the script generates a variable *X_combined* which contains this data frame. In addition, the script generates a variable called *X_summary*, which displays the mean of each variable in the subset grouped by each activity and by each experimental subject. 
+As main output, the script generates a variable *X_combined* which contains this data frame. In addition, the script generates a variable called *X_summary*, which displays the mean of each variable in the subset grouped by each activity and by each experimental subject. From X_summary, the script automatically generates a dataset called "tidydata.txt"
 
 
 
