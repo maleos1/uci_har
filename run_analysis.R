@@ -108,3 +108,6 @@ grouping <- group_by(X_combined, activity, subject_id)
 X_summary <- summarise_each(grouping, funs(mean), -(activity:subject_id))
 
 
+#### 10. Create summary text file from X_summary
+
+write.table(X_summary, file="tidydata.txt", row.names = FALSE)

@@ -3,7 +3,7 @@ CODEBOOK (for tidydata.txt, created on Dec 25th 2015 by maleos)
 
 **1. Overview & source data**
 
-This codebook describes in more detail how the script run_analysis.R works. This is a script which combines and cleans the training and test datasets of UCI Human Activity Recogniction Using Smartphones Project (UCI HAR). It returns two data frames, X_combined (a combined and cleaned up data set for analysis), and X_summary (a summary dataset). 
+This codebook describes in more detail how the script run_analysis.R works. This is a script which combines and cleans the training and test datasets of UCI Human Activity Recogniction Using Smartphones Project (UCI HAR). It returns two data frames, X_combined (a combined and cleaned up data set for analysis), and X_summary (a summary dataset), and an output file of X_summary ("tidydata.txt). 
 
 The raw data were gathered from accelerometers of the Samsung Galaxy S smartphone as part of experiments of UCI HAR carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone on the waist.
 According to the README.txt of the dataset (see section 4), the following data were collected:
@@ -40,7 +40,7 @@ The steps that run_analysis.R conducts are as follows:
 
 8. The X tables are joined by row, the resulting data frame is called X_combined
 
-9. A summary table is created that contains the averages of the selected measurements, grouped by subject id and activity. This data frame is called X_summary. This is the data frame from which tidydata.txt can be manually created using the write.table() command.
+9. A summary table is created that contains the averages of the selected measurements, grouped by subject id and activity. This data frame is called X_summary. This is the data frame from which tidydata.txt is automatically created using the write.table() command.
 
 
 **3. Variable descriptions**

@@ -34,5 +34,5 @@ See codebook.md in this repo for more information.
 
 4. Run the script using the command source("run_analysis.R").
 
-5. Once the script has finished running, the summarised data can be displayed by typing "X" (this is the name of the summary dataset).
+5. Once the script has finished running, the summarised data can be displayed by typing "X" (this is the name of the summary dataset). A file called "tidydata.txt"" is automatically created and placed in the working directory.
 
